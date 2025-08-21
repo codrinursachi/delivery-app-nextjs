@@ -6,7 +6,7 @@ import {
     NavigationMenuTrigger,
 } from "../ui/navigation-menu";
 
-export function NavMenuPartners() {
+export default function NavMenuPartners() {
     return (
         <NavigationMenuItem>
             <NavigationMenuTrigger>Partners</NavigationMenuTrigger>

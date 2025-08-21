@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Input } from "../ui/input";
 
-export function IntroSection() {
+export default function IntroSection() {
     return (
         <section className="flex flex-col items-center justify-center h-screen p-4 text-center bg-cyan-400">
             <Link href="/tazz-is-wolt">

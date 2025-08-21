@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export function DiscoverSection() {
+export default function DiscoverSection() {
     return (
         <div className="pt-20 -mt-20 bg-white rounded-3xl">
             <Link href="/discovery">
@@ -13,7 +13,7 @@ export function DiscoverSection() {
                         height={560}
                         className="m-auto rounded-4xl object-cover w-[95vw] h-[85vh]"
                     />
-                    <section className="flex flex-col items-center justify-center w-[90vw] h-[85vh] text-center p-4 absolute top-0">
+                    <section className="flex flex-col items-center justify-center w-[95vw] h-[85vh] text-center p-4 absolute top-0">
                         <h2 className="mb-8 text-3xl font-bold">
                             Everything you love about Tazz. Now on Wolt
                         </h2>
@@ -21,7 +21,6 @@ export function DiscoverSection() {
                             A new experience
                             <br /> awaits you
                         </h1>
-
                         <div className="p-4 mt-8 text-lg font-bold transition-colors bg-white/20 rounded-3xl hover:bg-white/30">
                             Discover Wolt
                         </div>

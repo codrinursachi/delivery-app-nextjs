@@ -1,7 +1,7 @@
-import { DiscoverSection } from "./discover-section";
-import { IntroSection } from "./intro-section";
+import DiscoverSection from "./discover-section";
+import IntroSection from "./intro-section";
 
-export function HeroSections() {
+export default function HeroSections() {
     return (
         <>
             <IntroSection />
