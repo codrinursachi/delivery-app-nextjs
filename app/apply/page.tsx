@@ -1,3 +1,4 @@
+import ApplyForm from "@/components/forms/apply-form";
 import Header from "@/components/header/header";
 import Stepper from "@/components/stepper/stepper";
 import Image from "next/image";
@@ -24,6 +25,7 @@ export default function ApplyPage() {
                     className="object-cover w-full h-96"
                 />
                 <Stepper steps={STEPS} activeStep={0} />
+                <ApplyForm />
             </main>
         </>
     );
