@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
                 hostname: "images.ctfassets.net",
                 pathname: "/**",
             },
+            {
+                protocol: "https",
+                hostname: "cdn.wolt.com",
+                pathname: "/**",
+            },
         ],
     },
 };
