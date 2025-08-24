@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
                 hostname: "cdn.wolt.com",
                 pathname: "/**",
             },
+            {
+                protocol: "https",
+                hostname: "imageproxy.wolt.com",
+                pathname: "/**",
+            },
         ],
     },
 };

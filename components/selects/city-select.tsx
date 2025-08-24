@@ -1,4 +1,4 @@
-import { CITIES } from "@/lib/cities";
+import { CITIES } from "@/lib/constants/cities";
 import {
     Select,
     SelectContent,
