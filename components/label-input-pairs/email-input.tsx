@@ -1,10 +1,10 @@
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 
-export default function EmailInput() {
+export default function EmailInput({ label = false }: { label?: boolean }) {
     return (
         <>
-            <Label htmlFor="email">Email address</Label>
+            {label && <Label htmlFor="email">Email address</Label>}
             <Input
                 type="email"
                 id="email"

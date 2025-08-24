@@ -21,11 +21,11 @@ export default function ApplyForm() {
                 below, and we&apos;ll get the ball rolling!
             </p>
             <form className="mt-8 flex flex-col gap-4">
-                <NameInput />
-                <EmailInput />
+                <NameInput/>
+                <EmailInput label />
                 <LanguageSelect />
                 <DateOfBirthInput />
-                <PhoneInput />
+                <PhoneInput label />
                 <DeliveryAddressSelect />
                 <DeliveryVehicle />
                 <CourierReferralInput />

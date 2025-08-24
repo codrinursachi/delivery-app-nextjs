@@ -1,11 +1,17 @@
 import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 
-export default function PhoneInput() {
+export default function PhoneInput({ label = false }: { label?: boolean }) {
     return (
         <>
-            <Label htmlFor="phone">Phone Number</Label>
-            <Input type="tel" id="phone" name="phone" required placeholder="0712 034 567" />
+            {label && <Label htmlFor="phone">Phone Number</Label>}
+            <Input
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+                placeholder="0712 034 567"
+            />
         </>
     );
 }
